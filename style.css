@@ -1,0 +1,63 @@
+/* Default light mode styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+button i {
+    color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark-mode button i {
+    color: #ffffff;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+/* Dark mode footer style */
+body.dark-mode footer {
+    background-color: #333;
+    color: #ffffff;
+}
