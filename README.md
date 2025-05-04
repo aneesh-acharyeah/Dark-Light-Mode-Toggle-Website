@@ -9,7 +9,7 @@ A simple JavaScript application that allows users to toggle between dark and lig
 - **Responsive Design**: Adapts to different screen sizes.
 - **FontAwesome Icon**: Provides a visual indicator for the toggle button.
 
-## Installation
+## Installation 
 
 To run this project locally, follow these steps:
 
