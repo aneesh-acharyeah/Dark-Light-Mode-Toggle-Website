@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 
    ```bash
    cd Dark-Light-Mode-Toggle-Website
-   ```
+   ``` 
 
 3. **Open `index.html` in your browser**:
    Simply open the `index.html` file in your preferred web browser to see the application in action.
